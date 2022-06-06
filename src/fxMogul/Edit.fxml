@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+
+<BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="369.0" prefWidth="525.0" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="fxMogul.EditController">
+   <center>
+      <Pane prefHeight="373.0" prefWidth="542.0" BorderPane.alignment="CENTER">
+         <children>
+            <Label alignment="CENTER" contentDisplay="CENTER" layoutX="216.0" layoutY="104.0" minWidth="-Infinity" text="Edit">
+               <font>
+                  <Font size="55.0" />
+               </font>
+            </Label>
+            <Button fx:id="fxSlopes" alignment="CENTER" layoutX="211.0" layoutY="235.0" mnemonicParsing="false" onAction="#handleSlopes" prefHeight="25.0" prefWidth="103.0" text="Slopes" />
+            <Button fx:id="fxJumps" alignment="CENTER" layoutX="211.0" layoutY="277.0" mnemonicParsing="false" onAction="#handleJumps" prefHeight="25.0" prefWidth="103.0" text="Jumps" />
+            <Button fx:id="fxBack" alignment="CENTER" layoutX="211.0" layoutY="317.0" mnemonicParsing="false" onAction="#handleBack" prefHeight="25.0" prefWidth="103.0" text="Back" />
+         </children>
+      </Pane>
+   </center>
+</BorderPane>

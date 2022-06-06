@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Accordion?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ScrollBar?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.control.TitledPane?>
+<?import javafx.scene.control.ToolBar?>
+<?import javafx.scene.layout.BorderPane?>
+
+<BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="500.0" prefWidth="915.0" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="fxMogul.SearchresultsController">
+   <center>
+      <Accordion BorderPane.alignment="CENTER">
+        <panes>
+          <TitledPane animated="false" text="Laajavuori1">
+               <content>
+                  <TableView prefHeight="200.0" prefWidth="200.0">
+                    <columns>
+                      <TableColumn prefWidth="40.0" text="Rank" />
+                      <TableColumn prefWidth="40.0" text="Bib" />
+                        <TableColumn prefWidth="40.0" text="Fis code" />
+                        <TableColumn prefWidth="150.0" text="Name" />
+                        <TableColumn prefWidth="112.0" text="Time">
+                           <columns>
+                              <TableColumn prefWidth="50.0" text="Sec" />
+                              <TableColumn prefWidth="50.0" text="Points" />
+                           </columns>
+                        </TableColumn>
+                        <TableColumn prefWidth="100.0" text="Air">
+                           <columns>
+                              <TableColumn prefWidth="40.0" text="J6" />
+                              <TableColumn prefWidth="40.0" text="J7" />
+                              <TableColumn prefWidth="50.0" text="Jump" />
+                              <TableColumn prefWidth="40.0" text="DD" />
+                              <TableColumn prefWidth="50.0" text="Total" />
+                           </columns>
+                        </TableColumn>
+                        <TableColumn prefWidth="100.0" text="Turns">
+                           <columns>
+                              <TableColumn prefWidth="40.0" text="J1" />
+                              <TableColumn prefWidth="40.0" text="J2" />
+                              <TableColumn prefWidth="40.0" text="J3" />
+                              <TableColumn prefWidth="40.0" text="J4" />
+                              <TableColumn prefWidth="40.0" text="J5" />
+                              <TableColumn prefWidth="50.0" text="Total" />
+                           </columns>
+                        </TableColumn>
+                        <TableColumn prefWidth="60.0" text="Run score" />
+                    </columns>
+                  </TableView>
+               </content>
+            </TitledPane>
+            <TitledPane animated="false" layoutX="10.0" layoutY="10.0" text="Laajavuori210921">
+               <content>
+                  <TableView prefHeight="200.0" prefWidth="200.0">
+                     <columns>
+                        <TableColumn prefWidth="40.0" text="Rank" />
+                        <TableColumn prefWidth="40.0" text="Bib" />
+                        <TableColumn prefWidth="40.0" text="Fis code" />
+                        <TableColumn prefWidth="150.0" text="Name" />
+                        <TableColumn prefWidth="112.0" text="Time">
+                           <columns>
+                              <TableColumn prefWidth="50.0" text="Sec" />
+                              <TableColumn prefWidth="50.0" text="Points" />
+                           </columns>
+                        </TableColumn>
+                        <TableColumn prefWidth="100.0" text="Air">
+                           <columns>
+                              <TableColumn prefWidth="40.0" text="J6" />
+                              <TableColumn prefWidth="40.0" text="J7" />
+                              <TableColumn prefWidth="50.0" text="Jump" />
+                              <TableColumn prefWidth="40.0" text="DD" />
+                              <TableColumn prefWidth="50.0" text="Total" />
+                           </columns>
+                        </TableColumn>
+                        <TableColumn prefWidth="100.0" text="Turns">
+                           <columns>
+                              <TableColumn prefWidth="40.0" text="J1" />
+                              <TableColumn prefWidth="40.0" text="J2" />
+                              <TableColumn prefWidth="40.0" text="J3" />
+                              <TableColumn prefWidth="40.0" text="J4" />
+                              <TableColumn prefWidth="40.0" text="J5" />
+                              <TableColumn prefWidth="50.0" text="Total" />
+                           </columns>
+                        </TableColumn>
+                        <TableColumn prefWidth="60.0" text="Run score" />
+                     </columns>
+                  </TableView>
+               </content>
+            </TitledPane>
+            <TitledPane animated="false" layoutX="10.0" layoutY="430.0" text="Laajavuori111121">
+               <content>
+                  <TableView prefHeight="200.0" prefWidth="200.0">
+                     <columns>
+                        <TableColumn prefWidth="40.0" text="Rank" />
+                        <TableColumn prefWidth="40.0" text="Bib" />
+                        <TableColumn prefWidth="40.0" text="Fis code" />
+                        <TableColumn prefWidth="150.0" text="Name" />
+                        <TableColumn prefWidth="112.0" text="Time">
+                           <columns>
+                              <TableColumn prefWidth="50.0" text="Sec" />
+                              <TableColumn prefWidth="50.0" text="Points" />
+                           </columns>
+                        </TableColumn>
+                        <TableColumn prefWidth="100.0" text="Air">
+                           <columns>
+                              <TableColumn prefWidth="40.0" text="J6" />
+                              <TableColumn prefWidth="40.0" text="J7" />
+                              <TableColumn prefWidth="50.0" text="Jump" />
+                              <TableColumn prefWidth="40.0" text="DD" />
+                              <TableColumn prefWidth="50.0" text="Total" />
+                           </columns>
+                        </TableColumn>
+                        <TableColumn prefWidth="100.0" text="Turns">
+                           <columns>
+                              <TableColumn prefWidth="40.0" text="J1" />
+                              <TableColumn prefWidth="40.0" text="J2" />
+                              <TableColumn prefWidth="40.0" text="J3" />
+                              <TableColumn prefWidth="40.0" text="J4" />
+                              <TableColumn prefWidth="40.0" text="J5" />
+                              <TableColumn prefWidth="50.0" text="Total" />
+                           </columns>
+                        </TableColumn>
+                        <TableColumn prefWidth="60.0" text="Run score" />
+                     </columns>
+                  </TableView>
+               </content>
+            </TitledPane>
+        </panes>
+      </Accordion>
+   </center>
+   <left>
+      <ScrollBar orientation="VERTICAL" BorderPane.alignment="CENTER" />
+   </left>
+   <top>
+      <ToolBar prefHeight="40.0" prefWidth="200.0" BorderPane.alignment="CENTER">
+        <items>
+          <Button fx:id="fxPrint" mnemonicParsing="false" onAction="#handlePrint" text="Print" />
+            <Button fx:id="fxExit" mnemonicParsing="false" onAction="#handleExit" text="Exit" />
+        </items>
+      </ToolBar>
+   </top>
+   <bottom>
+      <ScrollBar BorderPane.alignment="CENTER" />
+   </bottom>
+</BorderPane>
